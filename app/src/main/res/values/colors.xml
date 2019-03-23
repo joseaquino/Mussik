@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3651D6</color>
+    <color name="colorPrimaryDark">#110F2F</color>
+    <color name="primaryDarkHighlight">#181C50</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="primaryLight">#FFF5F5</color>
+    <color name="complementOne">#6375FD</color>
+</resources>
