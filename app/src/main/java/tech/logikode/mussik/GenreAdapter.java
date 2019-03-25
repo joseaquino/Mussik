@@ -29,7 +29,7 @@ public class GenreAdapter extends ArrayAdapter<Genre> {
         genreTitle.setText(currentGenre.getTitle());
 
         ImageView coverImage = genreView.findViewById(R.id.coverImage);
-        coverImage.setBackgroundResource(currentGenre.getCoverImageId());
+        coverImage.setImageResource(currentGenre.getCoverImageId());
 
         return genreView;
     }

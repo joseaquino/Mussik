@@ -30,6 +30,7 @@
         android:paddingLeft="16dp"
         android:paddingTop="80dp"
         android:paddingRight="16dp"
+        android:paddingBottom="16dp"
         android:verticalSpacing="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
