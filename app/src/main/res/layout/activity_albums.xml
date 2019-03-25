@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".AlbumsActivity">
+
+    <ImageView
+        android:id="@+id/genreCoverImage"
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/selectedGenreTitle"
+        android:layout_width="258dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/selected_genre_heading_bg"
+        android:gravity="center_vertical"
+        android:text="Sample"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryLight"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/genreCoverImage"
+        tools:fontFamily="@font/merriweather_sans_bold" />
+
+    <ListView
+        android:id="@+id/albumsList"
+        android:layout_width="match_parent"
+        android:layout_height="732dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectedGenreTitle" />
+
+</android.support.constraint.ConstraintLayout>
